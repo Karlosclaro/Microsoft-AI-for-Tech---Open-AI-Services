@@ -1,7 +1,7 @@
 import os
 import httpx
-from azure.identity import DefaultAzureCredential
-from openai import AzureOpenAI
+from azure.identity import DefaultAzureCredential # type: ignore
+from openai import AzureOpenAI # type: ignore
 from PIL import Image
 import json
 
